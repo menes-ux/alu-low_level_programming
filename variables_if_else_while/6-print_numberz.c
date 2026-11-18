@@ -1,16 +1,20 @@
 #include <stdio.h>
 
 /**
- * main - Prints single digits without using char variables
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int i;
+	int n;
 
-	for (i = 0; i < 10; i++)
-		putchar(i + '0');
+	n = 0;
+	while (n < 10)
+	{
+		putchar(n + '0');
+		n++;
+	}
 	putchar('\n');
 
 	return (0);
