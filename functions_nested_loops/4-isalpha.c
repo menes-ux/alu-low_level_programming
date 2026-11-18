@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _isalpha - Check whether a character is an alphabetic letter.
- * @c: Character to check.
+ * _isalpha - checks for an alphabetic character
+ * @c: the character to check
  *
- * Return: 1 for an uppercase or lowercase letter, otherwise 0.
+ * Return: 1 if c is a letter, lowercase or uppercase, 0 otherwise
  */
 int _isalpha(int c)
 {
